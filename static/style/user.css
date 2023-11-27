@@ -1,0 +1,116 @@
+.title {
+    color:#28576a;
+    margin-top: 30px;
+}
+
+
+.rec {
+  background-color: #c15f53;
+  border-color: #c15f53;
+  color: white;
+  margin: 15px 0px;
+}
+
+.rec:hover {
+  color:#c15f53;
+  background-color: white;
+  border-color: #c15f53;
+}
+
+form {
+    margin-top: 20px;
+    width: 80vw;
+}
+
+.form-select, .input-group {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .mb-3 input {
+    width: 70%;
+  }
+
+  .mb-3 .itemFile {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .preview {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+  }
+
+.form-label {
+    font-weight: 700;
+    font-size: 18px;
+    width: 100px;
+  }
+
+  .expire-txt{
+    display: inline-block;
+    max-width: 100%;
+    margin: 5px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 70px;
+  }
+
+  .place-container {
+    display: flex;
+    margin: 10px 0px;
+  }
+
+  .place-container label {
+    margin: 0px 5px;
+  }
+
+  .type-container label {
+    display: flex;
+    align-items: center;
+  }
+
+  .type-container .material-symbols-outlined {
+    font-size: 17px;
+    transform: translateY(1px);
+    margin: 0px 5px;
+  }
+
+  .type-container label i {
+    width: 20px;
+    margin: 0px 5px;
+    color: #28576a;
+  }
+
+  .material-symbols-outlined {
+    color: #28576a;
+  }
+
+  .form-check-inline {
+    width: 37vw;
+    display: flex;
+  }
+
+  .insert-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-primary {
+    background-color: #f8b10b;
+    border-color: #f8b10b;
+  }
+
+  .btn-primary:hover {
+    color:#f8b10b;
+    background-color: white;
+    border-color: #f8b10b;
+  }
